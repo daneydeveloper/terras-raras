@@ -1,0 +1,159 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.40
+* STEP-1 START @ 05:38:42
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.0.30 | SAPI: litespeed
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	/home/u972871083/public_html/terras-raras
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://demo-midia9.esy.es/terras-raras/installer%20(12).php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20180717_terrasraras_791f25d3aef039608414180717173132_archive.zip
+SIZE:	32.01MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3988
+    [filename] => /home/u972871083/public_html/terras-raras/20180717_terrasraras_791f25d3aef039608414180717173132_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-07-17 17:40:13
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.180717174013.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 05:40:13 - RUNTIME: 90.7691 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 05:42:11
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.16 -- Build Server: 10.1.32
+FILE SIZE:	database.sql (1.34MB) - installer-data.sql (1.34MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/u972871083/public_html/terras-raras/installer-data.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	0
+QUERIES RAN:	140
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (1)
+wp_ewwwio_images: (36)
+wp_links: (0)
+wp_options: (178)
+wp_postmeta: (434)
+wp_posts: (91)
+wp_term_relationships: (0)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (19)
+wp_users: (1)
+
+Removed '27' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 0.4085 sec.
+STEP-2 COMPLETE @ 05:42:13 - RUNTIME: 1.8697 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 05:42:17
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_ewwwio_images~ (36)
+wp_links^ (0)
+wp_options~ (150)
+wp_postmeta~ (434)
+wp_posts~ (91)
+wp_term_relationships^ (0)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_usermeta~ (19)
+wp_users~ (1)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/wordpress/wp-terras-raras-lp' 
+Change1:	'/home/u972871083/public_html/terras-raras' 
+Search2:	'C:\/xampp\/htdocs\/wordpress\/wp-terras-raras-lp' 
+Change2:	'\/home\/u972871083\/public_html\/terras-raras' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2Fwordpress%2Fwp-terras-raras-lp%2F' 
+Change3:	'%2Fhome%2Fu972871083%2Fpublic_html%2Fterras-raras%2F' 
+Search4:	'C:\xampp\htdocs\wordpress\wp-terras-raras-lp' 
+Change4:	'/home/u972871083/public_html/terras-raras' 
+Search5:	'//localhost/wordpress/wp-terras-raras-lp' 
+Change5:	'//demo-midia9.esy.es/terras-raras' 
+Search6:	'\/\/localhost\/wordpress\/wp-terras-raras-lp' 
+Change6:	'\/\/demo-midia9.esy.es\/terras-raras' 
+Search7:	'%2F%2Flocalhost%2Fwordpress%2Fwp-terras-raras-lp' 
+Change7:	'%2F%2Fdemo-midia9.esy.es%2Fterras-raras' 
+SCANNED:	Tables:14 	|	 Rows:733 	|	 Cells:5065 
+UPDATED:	Tables:2 	|	 Rows:191 	|	 Cells:238 
+ERRORS:		0 
+RUNTIME:	0.124100 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 05:42:17 - RUNTIME: 0.7091 sec.
+
+
